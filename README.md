@@ -53,17 +53,6 @@ Include the JavaScript file in your website.
 </html>
 ```
 
----
-
-# 🎇 Preview
-
-Add your animation preview here.
-
-```
-assets/preview.gif
-```
-
----
 
 # 🧠 Concept
 
@@ -88,11 +77,3 @@ MIT License
 
 Free to use in personal and commercial projects.
 
----
-
-### ⭐ GitHub SEO Topics (Very Important)
-Add these in Repository → About → Topics:  
-`diwali`, `diwali-animation`, `fireworks`, `javascript-animation`, `diwali-fireworks`, `festival-animation`, `frontend-effects`, `ui-animation`
-
-### 🚀 SEO Description
-Lightweight Diwali fireworks animation in JavaScript. A reusable centralized JS file for adding celebration fireworks effects to any website.
