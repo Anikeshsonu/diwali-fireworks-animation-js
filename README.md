@@ -54,7 +54,11 @@ Include the JavaScript file in your website.
 
 ## 🎇 Preview
 
-![Diwali Fireworks Animation Preview](assets/preview.png)
+Add your animation preview here.
+
+```
+assets/preview.gif
+```
 
 ---
 
