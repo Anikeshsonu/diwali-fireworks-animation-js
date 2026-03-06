@@ -52,7 +52,17 @@ Include the JavaScript file in your website.
 </body>
 </html>
 ```
+---
 
+# 🎇 Preview
+
+Add your animation preview here.
+
+```
+assets/preview.gif
+```
+
+---
 
 # 🧠 Concept
 
