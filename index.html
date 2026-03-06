@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Diwali | Festive Celebration</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-bg: #0b051e;
+            --accent-gold: #ffd700;
+            --accent-orange: #ff8c00;
+            --text-color: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--primary-bg);
+            color: var(--text-color);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            background: radial-gradient(circle at center, #1a0b3a 0%, #0b051e 100%);
+        }
+
+        .container {
+            text-align: center;
+            position: relative;
+            z-index: 10;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 5rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(45deg, var(--accent-gold), var(--accent-orange), var(--accent-gold));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+
+        p {
+            font-size: 1.5rem;
+            opacity: 0.8;
+            letter-spacing: 2px;
+            font-weight: 300;
+        }
+
+        .diya {
+            font-size: 4rem;
+            margin-top: 2rem;
+            filter: drop-shadow(0 0 20px rgba(255, 140, 0, 0.8));
+            animation: flicker 1.5s infinite alternate;
+        }
+
+        @keyframes glow {
+            from {
+                filter: drop-shadow(0 0 5px rgba(255, 215, 0, 0.5));
+            }
+            to {
+                filter: drop-shadow(0 0 20px rgba(255, 215, 0, 0.8));
+            }
+        }
+
+        @keyframes flicker {
+            0% { transform: scale(1); opacity: 0.8; }
+            50% { transform: scale(1.1); opacity: 1; }
+            100% { transform: scale(1.05); opacity: 0.9; }
+        }
+
+        footer {
+            position: absolute;
+            bottom: 2rem;
+            width: 100%;
+            text-align: center;
+            font-size: 0.9rem;
+            opacity: 0.5;
+        }
+
+        .badge {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: var(--accent-gold);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .badge:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <p>FEEL THE LIGHTS & JOY</p>
+        <h1>Happy Diwali</h1>
+        <div class="diya">🪔</div>
+        <p style="margin-top: 2rem;">
+            <a href="https://github.com/Anikeshsonu" class="badge">Developed by Anikesh Kumar Mishra</a>
+        </p>
+    </div>
+
+    <footer>
+        &copy; 2026 CODE4UTECH CONSULTANCY PVT. LTD. | Diwali Fireworks JS v1.0.4
+    </footer>
+
+    <!-- Plug and Play Fireworks Animation -->
+    <script src="diwali-fireworks.js"></script>
+
+</body>
+</html>
