@@ -54,16 +54,6 @@ Include the JavaScript file in your website.
 ```
 ---
 
-# 🎇 Preview
-
-Add your animation preview here.
-
-```
-assets/preview.gif
-```
-
----
-
 # 🧠 Concept
 
 Instead of writing fireworks animation separately for every project, this script works as a **centralized JS animation file**.
