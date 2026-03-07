@@ -1,3 +1,12 @@
+⭐ If you like this project please star the repository.
+
+![License](https://img.shields.io/github/license/Anikeshsonu/diwali-fireworks-animation-js)
+![Stars](https://img.shields.io/github/stars/Anikeshsonu/diwali-fireworks-animation-js)
+![Forks](https://img.shields.io/github/forks/Anikeshsonu/diwali-fireworks-animation-js)
+![Issues](https://img.shields.io/github/issues/Anikeshsonu/diwali-fireworks-animation-js)
+![Last Commit](https://img.shields.io/github/last-commit/Anikeshsonu/diwali-fireworks-animation-js)
+
+
 # 🎆 Diwali Fireworks Animation JS
 
 A **lightweight centralized JavaScript fireworks animation** designed for **Diwali celebration websites**. 
@@ -53,6 +62,14 @@ Include the JavaScript file in your website.
 </html>
 ```
 ---
+
+## 🌐 CDN Usage
+
+You can use this animation directly via **jsDelivr CDN** without downloading the file.
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/Anikeshsonu/diwali-fireworks-animation-js/diwali-fireworks.js"></script>
+
 
 # 🧠 Concept
 
